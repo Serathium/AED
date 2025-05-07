@@ -13,4 +13,4 @@ My approach to solving the problem was to directly return the sum itself, withou
 	T(n) = O(1), constant. The sum function executes a simple sum arithmetic operation and is called only once by the main function, that also calls printf only once.
 
 - Space complexity:
-	S(n) = O(1), constant. The program uses fixed size variables and there aren't and scalable data structures like arrays or lists, therefore the memory space utilized is constant and doesn't vary based on input size.
+	S(n) = O(1), constant. The program uses fixed size variables and there aren't any scalable data structures like arrays or lists, therefore the memory space utilized is constant and doesn't vary based on input size.
