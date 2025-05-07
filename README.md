@@ -1,3 +1,3 @@
-# Informações:
+# Info:
 
-Repositório Git de todos os exercícios realizados por mim da disciplina de Algorítmos e Estrutura de Dados do curso de Ciência da Computação da UFPEL, ministrada pelo Prof. Dr. Rafael P. Torchelsen no semestre 2025/1.
+Git repository of all exercises solved by me for the Algorithms and Data Structures course of the Computer Science program at UFPEL, taught by Prof. Dr. Rafael P. Torchelsen in the 2025/1 semester.
