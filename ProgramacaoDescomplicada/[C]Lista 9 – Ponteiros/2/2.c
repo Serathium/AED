@@ -27,8 +27,8 @@ int main () {
     }
 }
 
-// Function to compare two int pointers and return the pointer with the largest address . 
-// If the addres p1 is larger than p2, returns p1. Else, returns p2. If they are the same address, returns NULL.
+// Function to compare two int pointers and return the pointer with the largest address. 
+// If the addres p1 is larger than p2, returns p1. If p2 is larger than p1, returns p2. Else, returns NULL.
 int* FindLargerAddress ( int* p1, int* p2 ) {
     if ( p1 > p2 ) {
         return (int *)p1;
