@@ -10,7 +10,6 @@ int main () {
 
     // Iterate through the array, printing the addres and value of every element.
     for ( int i = 0; i < 10; i++ ) {
-        float *address = &array[i];
-        printf( "Address of element %d: %p\tElement value: %.2f\n", i+1, (void *)address, array[i] );
+        printf( "Address of element %d: %p\tElement value: %.2f\n", i+1, (void *)&array[i], array[i] );
     }
 }
