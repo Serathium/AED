@@ -6,6 +6,7 @@ Write the content of the 2 variables on the screen.
 
 #include <stdio.h>
 
+// Forward declaration of functions.
 void ReadInteger( int* number );
 void CompareAndSwap( int* number1, int* number2 );
 
