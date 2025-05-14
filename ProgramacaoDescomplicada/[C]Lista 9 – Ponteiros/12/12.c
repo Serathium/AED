@@ -26,8 +26,6 @@ int main () {
     Sort3Integers( ptr );
 
     printf("Sorted array: %d, %d, %d\n", *( ptr-3 ), *( ptr-2 ), *( ptr-1 ) );
-
-
 }
 
 /*
