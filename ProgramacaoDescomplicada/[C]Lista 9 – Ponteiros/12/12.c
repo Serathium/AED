@@ -9,7 +9,7 @@ Display the sorted values on the screen.
 #include <stdio.h>
 
 void ReadInteger( int* number );
-int SortInteger( int* number );
+int Sort3Integers( int* number );
 
 int main () {
     int array[3];
@@ -23,7 +23,7 @@ int main () {
 
     printf("\nArray: %d, %d, %d\n", *( ptr-3 ), *( ptr-2 ), *( ptr-1 ) );
 
-    SortInteger( ptr );
+    Sort3Integers( ptr );
 
     printf("Sorted array: %d, %d, %d\n", *( ptr-3 ), *( ptr-2 ), *( ptr-1 ) );
 
@@ -41,8 +41,10 @@ void ReadInteger( int* number ) {
     sscanf( buffer, "%d", number );
 }
 
-// Sort Integer with early return?
-int SortInteger( int* number ) {
+/* A complicated Sort 3 Integers function that may return early
+instead of always running 4 IF statements.
+*/
+int Sort3Integers( int* number ) {
     int temp;
     if ( *( number-1 ) == *( number-2 ) == *( number-3 ) ) {
         return 1;
