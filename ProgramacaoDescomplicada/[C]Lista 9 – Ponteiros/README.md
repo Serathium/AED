@@ -26,7 +26,7 @@
 
 13. Develop a function that receives two strings as parameters and checks if the second string occurs within the first. [cite: 21, 22] Use pointer arithmetic to access the characters of the strings. [cite: 22]
 
-14. Create a function that receives two parameters: an array and a value of the same type as the array. [cite: 22, 23] The function should fill the elements of the array with this value. [cite: 23, 24] Do not use indices to traverse the array, only pointer arithmetic. [cite: 24]
+14. Create a function that receives two parameters: an array and a value of the same type as the array. [cite: 22, 23] The function should fill the array elements with this value. [cite: 23, 24] Do not use indices to traverse the array, only pointer arithmetic. [cite: 24]
 
 15. Create a function that receives an array as a parameter and prints it. [cite: 25, 26] Do not use indices to traverse the array, only pointer arithmetic. [cite: 26]
 
