@@ -26,9 +26,6 @@ int main () {
         printf( "Value in index %d: %d\n", i, *ptr );
         ptr++;
     }
-
-    
-    
 }
 
 // Not sure if i understood the exercise correctly.
