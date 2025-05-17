@@ -32,7 +32,7 @@
 
 16. Consider the following declaration: int A, \*B, \*\*C, \*\*\*D; [cite: 26, 27] Write a program that reads the variable a and calculates and displays the double, triple, and quadruple of this value using only the pointers B, C, and D. The pointer B must be used to calculate the double, C the triple, and D the quadruple. [cite: 27]
 
-17. Write a function that, given a real number passed as a parameter, returns the integer part and the fractional part of this number. [cite: 28, 29] Write a program that calls this function. [cite: 29] Prototype: `void frac(float num, int* integer, float frac);` [cite: 29]
+17. Write a function that, given a real number passed as a parameter, returns the integer part and the fractional part of this number. [cite: 28, 29] Write a program that calls this function. [cite: 29] Prototype: `void frac(float num, int* integer, float* frac);` [cite: 29]
 
 18. Implement a function that calculates the surface area and the volume of a sphere of radius R. This function must obey the prototype: `void calc_esfera (float R, float *area, float *volume)` The surface area and the volume are given, respectively, by: $A = 4 * p * R^2$ $V = 4/3 * p * R^3$ [cite: 30]
 
