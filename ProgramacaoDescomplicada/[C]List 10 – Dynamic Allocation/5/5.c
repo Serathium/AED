@@ -32,6 +32,8 @@ int main() {
             printf( "%d is a multiple of %d!\n", array[i], X );
         }
     }
+
+    free( array );
 }
 
 void ReadInteger( int *number ) {
